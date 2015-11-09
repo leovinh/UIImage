@@ -9,6 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var imgHinh: UIImageView!
+    
+    @IBAction func HinhLocal(sender: AnyObject) {
+        
+        imgHinh.image = UIImage(named: "laptop.pdf")
+    }
+    
+    @IBAction func HinhInternet(sender: AnyObject) {
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
