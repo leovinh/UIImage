@@ -19,6 +19,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func HinhInternet(sender: AnyObject) {
+        let url:NSURL = NSURL(string: "https://avatars0.githubusercontent.com/u/3232450?v=3&s=460")!
+        
+        let dt:NSData = NSData(contentsOfURL: url)!
+        imgHinh.image = UIImage(data: dt)
+        
     }
 
     override func viewDidLoad() {

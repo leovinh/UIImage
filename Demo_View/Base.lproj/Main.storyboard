@@ -26,9 +26,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDb-Kv-ChQ">
-                                <rect key="frame" x="236" y="264" width="54" height="30"/>
+                                <rect key="frame" x="241" y="264" width="44" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Internet"/>
+                                <state key="normal" title="Avatar"/>
                                 <connections>
                                     <action selector="HinhInternet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d9d-xr-pHO"/>
                                 </connections>
