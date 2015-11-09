@@ -25,6 +25,11 @@ class ViewController: UIViewController {
         imgHinh.image = UIImage(data: dt)
         
     }
+    
+
+        
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

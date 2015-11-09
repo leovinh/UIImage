@@ -33,10 +33,18 @@
                                     <action selector="HinhInternet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d9d-xr-pHO"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v5L-7d-Wzg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v5L-7d-Wzg">
                                 <rect key="frame" x="67" y="39" width="240" height="145"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbf-ez-Pqx">
+                                <rect key="frame" x="152" y="360" width="70" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Hinh Midu"/>
+                                <connections>
+                                    <action selector="HinhMidu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lo4-ZO-1te"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
